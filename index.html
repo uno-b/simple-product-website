@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The title of the website below-->
+    <title>My Website</title>
+
+    <!-- Links the styles.css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- For importing icons from FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/4bf35f9237.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Menu -->
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- We're putting everything inside the container, so we can put it's width at 80% and center it -->
+    <div class="container">
+      <main>
+        <div>
+          <img src="./assets/logo.webp" alt="Logo" />
+          <p>We sell things!</p>
+          <button>Learn more</button>
+        </div>
+      </main>
+
+      <!-- About section -->
+      <section class="about">
+        <div class="anchor" id="about"></div>
+        <h1>About</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem
+          vero necessitatibus ex nostrum atque laudantium tempora aliquid
+          aliquam tempore praesentium quibusdam. Quaerat, eligendi aperiam odit
+          nihil qui quasi suscipit? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Tenetur, veritatis dolores voluptates omnis veniam
+          quaerat dicta sequi. Ut, vero unde placeat eum nihil adipisci iusto
+          natus quibusdam culpa autem mollitia.
+        </p>
+      </section>
+      <!-- Products section -->
+      <section class="products">
+        <div class="anchor" id="products"></div>
+        <h1>Products</h1>
+        <ul>
+          <li>
+            <h2>Milk</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>$0.00</p>
+            <button>Buy</button>
+          </li>
+          <li>
+            <h2>Egg</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>$0.00</p>
+            <button>Buy</button>
+          </li>
+          <li>
+            <h2>Candy</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>$0.00</p>
+            <button>Buy</button>
+          </li>
+        </ul>
+      </section>
+      <!-- Contact section -->
+      <section class="contact">
+        <div class="anchor" id="contact"></div>
+        <h1>Contact</h1>
+        <p>You can reach me via:</p>
+        <!-- These are icons I imported from the FontAwesome CDN -->
+        <button><i class="fab fa-facebook-square"></i></button>
+        <button><i class="fab fa-twitter-square"></i></button>
+        <button><i class="fab fa-instagram-square"></i></button>
+      </section>
+    </div>
+    <!-- Footer below -->
+    <footer>
+      <p>&copy; Copyright 2021</p>
+    </footer>
+  </body>
+</html>
