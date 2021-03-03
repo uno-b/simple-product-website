@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- The title of the website below-->
-    <title>My Website</title>
+    <title>Complices et Délices</title>
 
     <!-- Links the styles.css -->
     <link rel="stylesheet" href="./css/styles.css" />
@@ -19,9 +19,9 @@
     <!-- Menu -->
     <nav class="nav">
       <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#products">Products</a></li>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#about">A Propos</a></li>
+        <li><a href="#products">Produit</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -30,44 +30,41 @@
       <main>
         <div>
           <img src="./assets/logo.webp" alt="Logo" />
-          <p>We sell things!</p>
-          <button>Learn more</button>
+          <p>Bienvenue sur notre site !</p>
+          <button>Lire la suite</button>
         </div>
       </main>
 
-      <!-- About section -->
+      <!-- Partie explicative de mon site -->
       <section class="about">
         <div class="anchor" id="about"></div>
-        <h1>About</h1>
+        <h1>A propos de nous</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem
-          vero necessitatibus ex nostrum atque laudantium tempora aliquid
-          aliquam tempore praesentium quibusdam. Quaerat, eligendi aperiam odit
-          nihil qui quasi suscipit? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Tenetur, veritatis dolores voluptates omnis veniam
-          quaerat dicta sequi. Ut, vero unde placeat eum nihil adipisci iusto
-          natus quibusdam culpa autem mollitia.
+          Complices et délices vous propose des produits de qualité issu de
+          l'exploitation familiale ainsi que d'autres denrées locales. Nos
+          missions: une relation de confiance entre le producteur et le
+          consommateur, valoriser l'agriculture familiale et durable.
         </p>
       </section>
-      <!-- Products section -->
+      <!-- Section des Produit -->
       <section class="products">
         <div class="anchor" id="products"></div>
         <h1>Products</h1>
         <ul>
           <li>
-            <h2>Milk</h2>
+            <h2>Lait</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>1€</p>
+            <button>Acheter</button>
+          </li>
+          <li>
+            <h2>Oeuf</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>$0.00</p>
             <button>Buy</button>
           </li>
           <li>
-            <h2>Egg</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>$0.00</p>
-            <button>Buy</button>
-          </li>
-          <li>
-            <h2>Candy</h2>
+            <h2>Tarte au maton</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>$0.00</p>
             <button>Buy</button>
@@ -75,11 +72,69 @@
         </ul>
       </section>
       <!-- Contact section -->
+      <h1 class="contact-me">Contact Me</h1>
+      <div class="mini-container">
+        <form id="contact" action="" method="post">
+          <h3>Contact Form</h3>
+          <fieldset>
+            <input
+              placeholder="Your name"
+              type="text"
+              tabindex="1"
+              required
+              autofocus
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Your Email Address"
+              type="email"
+              tabindex="2"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Your Phone Number (optional)"
+              type="tel"
+              tabindex="3"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Your Web Site (optional)"
+              type="url"
+              tabindex="4"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <textarea
+              placeholder="Type your message here...."
+              tabindex="5"
+              required
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+            <label for="vehicle1"> I agree to submit the form.</label><br />
+            <button
+              name="submit"
+              type="submit"
+              id="contact-submit"
+              data-submit="...Sending"
+            >
+              Submit
+            </button>
+          </fieldset>
+        </form>
+      </div>
+
       <section class="contact">
-        <div class="anchor" id="contact"></div>
-        <h1>Contact</h1>
-        <p>You can reach me via:</p>
-        <!-- These are icons I imported from the FontAwesome CDN -->
+        <h1>Reach Me</h1>
+        <p>Vous pouvez nous retrouver sur les différente platforme :</p>
+        <!-- Ce sont des icônes que j'ai importées depuis CDN FontAwesome -->
         <button><i class="fab fa-facebook-square"></i></button>
         <button><i class="fab fa-twitter-square"></i></button>
         <button><i class="fab fa-instagram-square"></i></button>
@@ -87,7 +142,7 @@
     </div>
     <!-- Footer below -->
     <footer>
-      <p>&copy; Copyright 2021</p>
+      <p>&copy; Complices et Délices 2021</p>
     </footer>
   </body>
 </html>
